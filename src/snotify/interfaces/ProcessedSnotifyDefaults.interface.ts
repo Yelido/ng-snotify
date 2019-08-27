@@ -11,6 +11,7 @@ export interface ProcessedSnotifyGlobalConfig {
   maxOnScreen: number;
   maxAtPosition: number;
   newOnTop: boolean;
+  filterDuplicates: boolean;
 }
 
 /**
